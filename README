@@ -1,0 +1,4 @@
+A Scala version of Eclipse's Hello World plug-in, including the necessary Maven
+build files.
+
+See http://misto.ch/eclipse-plugins-scala-maventycho for more information.
