@@ -20,6 +20,7 @@
   </dependencies>
   <build>
     <sourceDirectory>${basedir}/src</sourceDirectory>
+    <testSourceDirectory>${basedir}/test</testSourceDirectory>
     <plugins>
       <plugin>
         <groupId>org.sonatype.tycho</groupId>
@@ -38,6 +39,7 @@
       <plugin>
         <groupId>org.scala-tools</groupId>
         <artifactId>maven-scala-plugin</artifactId>
+        <version>2.13.1</version>
         <executions>
           <execution>
             <goals>

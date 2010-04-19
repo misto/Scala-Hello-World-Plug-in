@@ -6,6 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: scala_hello_world_plugin.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- scala.library
+ scala.library,
+ org.junit4;bundle-version="4.5.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
