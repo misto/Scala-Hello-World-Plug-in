@@ -11,6 +11,9 @@
     <module>scala-hello-world-feature</module>
     <module>scala-hello-world-updatesite</module>
   </modules>
+  <properties>
+    <tycho.version>0.10.0</tycho.version>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.scala-lang</groupId>
@@ -25,13 +28,13 @@
       <plugin>
         <groupId>org.sonatype.tycho</groupId>
         <artifactId>tycho-maven-plugin</artifactId>
-        <version>0.8.0</version>
+        <version>${tycho.version}</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>
         <groupId>org.sonatype.tycho</groupId>
         <artifactId>target-platform-configuration</artifactId>
-        <version>0.8.0</version>
+        <version>${tycho.version}</version>
         <configuration>
           <resolver>p2</resolver>
         </configuration>
@@ -39,7 +42,7 @@
       <plugin>
         <groupId>org.scala-tools</groupId>
         <artifactId>maven-scala-plugin</artifactId>
-        <version>2.13.1</version>
+        <version>2.15.0</version>
         <executions>
           <execution>
             <goals>
@@ -61,7 +64,7 @@
     <repository>
        <id>scala eclipse nightly</id>
        <layout>p2</layout>
-       <url>http://download.scala-ide.org/scala-eclipse-toolchain-osgi-2.8.1.final</url>
+       <url>http://download.scala-ide.org/scala-eclipse-toolchain-osgi-2.8.1.final/</url>
     </repository>
     <repository>
       <id>scala-tools.org.snapshots</id>
