@@ -58,7 +58,7 @@
   </build>
   <repositories>
     <repository>
-       <id>galileo</id>
+       <id>eclipse indigo</id>
        <layout>p2</layout>
        <url>http://download.eclipse.org/releases/indigo</url>
     </repository>
