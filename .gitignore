@@ -1,1 +1,14 @@
 target/
+.project
+.settings/
+scala-hello-world-feature/.classpath
+scala-hello-world-feature/.settings/
+scala-hello-world-plugin/.cache
+scala-hello-world-plugin/.settings/
+scala-hello-world-updatesite/.classpath
+scala-hello-world-updatesite/.settings/
+scala-hello-world-updatesite/.cache/
+scala-hello-world-feature/bin/
+scala-hello-world-updatesite/bin/
+
+
