@@ -12,13 +12,15 @@
     <module>scala-hello-world-updatesite</module>
   </modules>
   <properties>
-    <tycho.version>0.17.0</tycho.version>
-    <scala.version>2.10.1</scala.version>
+    <tycho.version>0.22.0</tycho.version>
+    <scala.version>2.11.5</scala.version>
   </properties>
   <build>
     <sourceDirectory>${basedir}/src</sourceDirectory>
     <testSourceDirectory>${basedir}/test</testSourceDirectory>
+    
     <plugins>
+    
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-maven-plugin</artifactId>
@@ -54,9 +56,9 @@
   </build>
   <repositories>
     <repository>
-       <id>eclipse juno</id>
+       <id>eclipse luna</id>
        <layout>p2</layout>
-       <url>http://download.eclipse.org/releases/juno</url>
+       <url>http://download.eclipse.org/releases/luna</url>
     </repository>
     <repository>
        <id>scala eclipse toolchain osgi</id>
@@ -64,4 +66,5 @@
        <url>http://download.scala-ide.org/sdk/e38/scala210/stable/site</url>
     </repository>
   </repositories>
+
 </project>
