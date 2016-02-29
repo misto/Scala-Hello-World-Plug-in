@@ -63,7 +63,7 @@
     <repository>
        <id>scala eclipse toolchain osgi</id>
        <layout>p2</layout>
-       <url>http://download.scala-ide.org/sdk/e38/scala210/stable/site</url>
+       <url> http://download.scala-ide.org/sdk/lithium/e44/scala211/stable/site</url>
     </repository>
   </repositories>
 
